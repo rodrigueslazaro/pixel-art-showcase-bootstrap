@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'VT323';
+    src: url('./fonts/VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: VT323, sans-serif;
+    background-color: #fcfbbd;
+}
+
+#navMain {
+    background-color: rgb(47 34 27 / .5) !important;
+}
+
+#navBrand {
+    font-size: 30px;
+}
+
+#navItems .nav-link {
+    color: black;
+    font-size: 30px;
+}
+
+#navItems .nav-link:hover {
+    color: #f4ae8d;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.knight {
+    background-color: tan;
+}
